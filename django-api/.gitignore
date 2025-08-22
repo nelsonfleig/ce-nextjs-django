@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+.env/
+*.env
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# macOS
+.DS_Store
+
+# Coverage / Testing
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+
+# Migrations (optional: ignore if you don’t want to track them while learning)
+# */migrations/*
+# !*/migrations/__init__.py
+
